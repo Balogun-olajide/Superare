@@ -1,0 +1,221 @@
+/* Layout / 361 */
+
+body
+{  
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+background: #060606;
+
+
+}
+ /* Container */
+#navbar
+{
+position: absolute;
+width: 1312px;
+height: 40px;
+left: 32px;
+top: 56px;
+}
+
+li, a
+{
+    font-family: 'Monument Extended';
+    font-style: normal;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+button
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 24px;
+    gap: 10px;
+    
+    
+    position: absolute;
+    width: 92px;
+    height: 40px;
+    left: 1237px;
+    top: 0px;
+    
+    background: #F701F8;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background: #F701F8;
+
+}
+
+.logo
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+cursor: pointer;
+position: absolute;
+width: 249px;
+height: 54px;
+left: 532px;
+top: -7px;
+}
+.nav__links
+{
+list-style: none;
+text-decoration: none;
+
+
+}
+.nav__links li
+{
+   display: inline-block;
+   padding: 0px 20px;
+}
+.nav__links li a 
+{
+   transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover 
+{
+    color: #FFFFFF;
+}
+/* Header / 1 */
+
+.header 
+{
+position: absolute;
+width: 1440px;
+height: 824px;
+left: 0px;
+top: 112px;
+background: #060606;
+}
+
+/* Mystery Item B */
+.Mystery-item
+{
+position: absolute;
+width: 520px;
+height: 623.67px;
+left: 415px;
+top: 250px;
+
+background: url(ABPK-Donut-Drip-GRAD_1.png);
+}
+
+/* Discover and Collect Super Rare NFTs */
+
+.Discover{
+position: absolute;
+width: 1042px;
+height: 188px;
+left: 199px;
+top: 86px;
+
+font-family: 'Monument Extended';
+font-style: normal;
+font-weight: 800;
+font-size: 78px;
+line-height: 120%;
+/* or 94px */
+
+text-align: center;
+letter-spacing: -0.04em;
+
+color: #FFFFFF;
+}
+
+
+    /* Ellipse 3 */
+.Ellipse3
+{
+position: absolute;
+width: 676px;
+height: 691px;
+left: 199px;
+top: 397px;
+
+background: radial-gradient(132.29% 59.65% at 163.11% 22.69%, rgba(89, 89, 253, 0.5) 0%, rgba(139, 73, 185, 0.5) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+filter: blur(95.1992px);
+}
+ /* Ellipse 4 */
+.Ellipse4
+{
+position: absolute;
+width: 682px;
+height: 665px;
+left: 559px;
+top: 423px;
+
+background: radial-gradient(132.29% 59.65% at 163.11% 22.69%, rgba(89, 89, 253, 0.5) 0%, rgba(139, 73, 185, 0.5) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+filter: blur(95.1992px)
+}
+/* Clone X 11 */
+.cloneX
+{ 
+position: absolute;
+width: 697.7px;
+height: 697.7px;
+left: 371px;
+top: 135px;
+background: url(.png);
+}
+
+/* Frame 8 */
+.frame8{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 31px;
+
+position: absolute;
+width: 785px;
+height: 68px;
+left: 328px;
+top: 724px;
+}
+
+/* Logo / 3 */
+.main
+{ 
+width: 1440px;
+height: 340px;
+
+background: #0B090E;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+h1 
+{ 
+position: static;
+width: 191px;
+height: 45px;
+left: 625px;
+top: 69px;
+
+font-family: 'Monument Extended';
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 150%;
+/* identical to box height, or 45px */
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+}
